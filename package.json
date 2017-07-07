@@ -1,38 +1,39 @@
 {
-  "name": "esdoc-flow-plugin",
-  "version": "1.0.0",
-  "description": "A Flow plugin for ESDoc.",
-  "main": "index.js",
-  "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eaviles/esdoc-flow-plugin.git"
-  },
-  "keywords": [
-    "esdoc",
-    "flow",
-    "flowtype"
-  ],
-  "author": "Edgardo Avilés <eaviles@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eaviles/esdoc-flow-plugin/issues"
-  },
-  "homepage": "https://github.com/eaviles/esdoc-flow-plugin#readme",
-  "devDependencies": {
-    "eslint": "2.13.0",
-    "eslint-config-airbnb-base": "3.0.1",
-    "eslint-plugin-import": "1.8.1"
-  },
-  "engines": {
-    "node": ">=4.4.4"
-  },
-  "dependencies": {
-    "babel-core": "6.9.1",
-    "babel-plugin-syntax-jsx": "6.8.0",
-    "babel-plugin-transform-flow-strip-types": "6.8.0"
-  }
+	"name": "esdoc-flow-plugin",
+	"version": "1.0.1",
+	"description": "A Flow plugin for ESDoc.",
+	"main": "index.js",
+	"scripts": {
+		"lint": "./node_modules/eslint/bin/eslint.js .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ktamkun/esdoc-flow-plugin.git"
+	},
+	"keywords": [
+		"esdoc",
+		"flow",
+		"flowtype"
+	],
+	"author": "Edgardo Avilés <eaviles@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ktamkun/esdoc-flow-plugin/issues"
+	},
+	"homepage": "https://github.com/ktamkun/esdoc-flow-plugin#readme",
+	"devDependencies": {
+		"eslint": "2.13.0",
+		"eslint-config-airbnb-base": "3.0.1",
+		"eslint-plugin-import": "1.8.1"
+	},
+	"engines": {
+		"node": ">=4.4.4"
+	},
+	"dependencies": {
+		"babel-core": "6.9.1",
+		"babel-plugin-syntax-class-properties": "^6.13.0",
+		"babel-plugin-syntax-jsx": "6.8.0",
+		"babel-plugin-transform-flow-strip-types": "6.8.0"
+	}
 }
