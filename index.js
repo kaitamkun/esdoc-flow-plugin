@@ -1,7 +1,7 @@
 const babel = require("babel-core");
 
 const babelOpts = {
-	plugins: ["syntax-class-properties", "transform-flow-strip-types", "syntax-jsx"]
+	plugins: ["syntax-class-properties", "syntax-object-rest-spread", "transform-flow-strip-types", "syntax-jsx"]
 };
 
 exports.onHandleCode = (event) => {
